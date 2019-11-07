@@ -48,7 +48,7 @@ For analysis (purpose)
 corresponding to multiPV = 256.
 
 
-Recommended values: from 2 to 5 ( > 5 too wide search width)
+Recommended values: from 2 to 5 ( > 5 too wide search width).
 
 
 ### NN section (Experimental Neural Networks inspired technics)
