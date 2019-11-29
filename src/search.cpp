@@ -1196,8 +1196,7 @@ moves_loop: // When in check, search starts from here
           moveCountPruning = moveCount >= futility_move_count(improving, depth);
 
           if (   !captureOrPromotion
-              && !givesCheck
-              && (!PvNode || !pos.advanced_pawn_push(move) || pos.non_pawn_material(~us) > BishopValueMg))
+              && !givesCheck)
           {
               //from Kelly begin
               if (isSingularExtension && moveCount > 1)
